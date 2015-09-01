@@ -1,13 +1,33 @@
 {
   "name": "geourl-lite",
   "version": "1.0.0",
-  "description": "",
+  "description": "Get a link's countries' code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test.js"
   },
-  "author": "",
+  "author": {
+    "name": "wzbg",
+    "email": "z3530515@gmail.com"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wzbg/geourl-lite"
+  },
+  "bugs": {
+    "url": "https://github.com/wzbg/geourl-lite/issues"
+  },
+  "homepage": "https://github.com/wzbg/geourl-lite#readme",
+  "keywords": [
+    "link",
+    "url",
+    "countries",
+    "country",
+    "code",
+    "geo",
+    "lite"
+  ],
   "dependencies": {
     "geoip-lite": "^1.1.6",
     "is-url": "^1.2.1"
