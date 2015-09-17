@@ -1,6 +1,8 @@
 var geourl = require('./index');
 
-geourl('https://www.npmjs.com/package/geourl-lite', function (err, geo) {
+var url = 'https://www.npmjs.com/package/geourl-lite';
+
+geourl(url, function (err, geo) {
   if (err) {
     console.log('error:', err);
     return;
