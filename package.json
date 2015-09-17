@@ -1,6 +1,6 @@
 {
   "name": "geourl-lite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get a link's countries' code",
   "main": "index.js",
   "scripts": {

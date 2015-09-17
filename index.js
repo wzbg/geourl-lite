@@ -26,8 +26,7 @@ module.exports = function (url, callback) {
     }
     addresses.forEach(function (addresse, index) {
       var geo = geoip.lookup(addresse);
-      if (!geo) {
-        geo.addresses.addresse = '';
+      if (!geo || !geo.country) {
         return;
       }
       res.addresses[addresse] = geo.country;
