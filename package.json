@@ -1,10 +1,10 @@
 {
   "name": "geourl-lite",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get a link's countries' code",
   "main": "index.js",
   "scripts": {
-    "test": "test.js"
+    "test": "node test"
   },
   "author": {
     "name": "wzbg",

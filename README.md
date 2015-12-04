@@ -12,7 +12,7 @@ $ npm install --save geourl-lite
 ## Usage
 
 ```js
-var geourl = require('./index');
+var geourl = require('geourl-lite');
 
 geourl('https://www.npmjs.com/package/geourl-lite', function (err, geo) {
   if (err) {

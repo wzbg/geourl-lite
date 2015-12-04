@@ -8,7 +8,7 @@ module.exports = function (url, callback) {
   if (!url) {
     return callback(new Error('Empty url'), res);
   }
-  if (!isUrl(url)) {
+  if (!isUrl(encodeURI(url))) {
     return callback(new Error(url + ' is not a url'), res);
   }
   var parseUrl = urlParse(url);
